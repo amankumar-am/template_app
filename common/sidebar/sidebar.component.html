@@ -1,0 +1,9 @@
+<div class="sidebar h-100 m-0 p-0">
+  <ul *ngFor="let item of menuItems">
+    <li>
+      <a routerLink="{{ item.endpoint }}" routerLinkActive="active">
+        {{ item.name }}</a
+      >
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,12 @@
+.sidebar {
+  width: 6rem;
+  background-color: cadetblue;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+}
